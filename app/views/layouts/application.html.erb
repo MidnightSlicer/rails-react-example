@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsReact2</title>
+    <title>Rails React Example</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,6 +10,11 @@
     <%= stylesheet_link_tag "application" %>
     <%= javascript_pack_tag "application" %>
   </head>
+  <header>
+    <h1 class="text-3xl font-bold underline">
+      Rails React Example
+    </h1>
+  </header>
   <body>
     <main class="container mx-auto mt-28 px-5 flex">
       <%= yield %>
